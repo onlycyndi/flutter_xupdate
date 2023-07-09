@@ -7,8 +7,8 @@ import 'update_info.dart';
 export 'update_entity.dart';
 export 'update_info.dart';
 
-typedef ErrorHandler = Future<dynamic> Function(Map<String, dynamic>? event);
-typedef ParseHandler = Future<UpdateEntity> Function(String? json);
+typedef ErrorHandler = Future<dynamic> Function(Map<String, dynamic> event);
+typedef ParseHandler = Future<UpdateEntity> Function(String json);
 
 ///Android全量更新插件
 class FlutterXUpdate {
